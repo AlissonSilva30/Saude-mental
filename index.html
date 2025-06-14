@@ -422,7 +422,7 @@
                         <span class="text-xl mr-2">👍</span> Facebook
                     </a>
                     <!-- LinkedIn Share Button -->
-                    <a id="share-linkedin" href="#" target="_blank" class="bg-blue-800 text-white px-5 py-2 rounded-full flex items-center hover:bg-blue-900 transition-all duration-300 action-button">
+                    <a href="https://www.linkedin.com/in/alisson-silva-psicologia" target="_blank" class="bg-blue-800 text-white px-5 py-2 rounded-full flex items-center hover:bg-blue-900 transition-all duration-300 action-button">
                         <span class="text-xl mr-2">🔗</span> LinkedIn
                     </a>
                 </div>
@@ -562,11 +562,7 @@
                 facebookShareBtn.href = `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`;
             }
 
-            // LinkedIn Share URL
-            const linkedinShareBtn = document.getElementById('share-linkedin');
-            if (linkedinShareBtn) {
-                linkedinShareBtn.href = `https://www.linkedin.com/shareArticle?mini=true&url=${currentUrl}&title=${title}&summary=${description}&source=${currentUrl}`;
-            }
+            
         });
     </script>
 </body>
